@@ -45,7 +45,7 @@ const BookList = () => {
     } else {
       dispatch(fetchBookstListAction(currentPage, selectedCountry, sortBy));
     }
-  }, [currentPage, searchQuery, selectedCountry, sortBy]);
+  }, [dispatch, currentPage, searchQuery, selectedCountry, sortBy]);
 
   const handleEditClick = (bookData) => {
     setEditingBook(bookData);
