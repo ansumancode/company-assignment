@@ -1,0 +1,6 @@
+export const FETCH_BOOKS_REQUEST = 'FETCH_BOOKS_REQUEST';
+export const FETCH_BOOKS_SET = "FETCH_BOOKS_SET";
+export const FETCH_BOOKS_SET_LIST = "FETCH_BOOKS_SET_LIST";
+export const SET_SEARCH_LIST = "SET_SEARCH_LIST";
+export const ADD_BOOK = "ADD_BOOK";
+export const EDIT_BOOK = "EDIT_BOOK";
