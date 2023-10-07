@@ -12,7 +12,7 @@ const BookList = () => {
   const [editingBook, setEditingBook] = useState(null);
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPages, setTotalPages] = useState(1);
-  const [searchQuery, setSearchQuery] = useState("");
+  const searchQuery = "";
   const [selectedCountry, setSelectedCountry] = useState("");
   const [sortBy, setSortBy] = useState("year");
 
@@ -71,6 +71,7 @@ const BookList = () => {
     }
   };
 
+ 
 
   const handleCountryFilterChange = (e) => {
     setSelectedCountry(e.target.value);
