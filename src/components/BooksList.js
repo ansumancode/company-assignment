@@ -71,10 +71,6 @@ const BookList = () => {
     }
   };
 
-  const handleSearch = (query) => {
-    setSearchQuery(query);
-    setCurrentPage(1);
-  };
 
   const handleCountryFilterChange = (e) => {
     setSelectedCountry(e.target.value);
